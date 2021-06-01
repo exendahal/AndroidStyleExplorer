@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+	<style name="MainTheme" parent="MainTheme.Base">
+		<!-- As of Xamarin.Forms 4.6 the theme has moved into the Forms binary -->
+		<!-- If you want to override anything you can do that here. -->
+		<!-- Underneath are a couple of entries to get you started. -->
+
+		<!-- Set theme colors from https://aka.ms/material-colors -->
+		<!-- colorPrimary is used for the default action bar background -->
+		<item name="colorPrimary">#37393e</item>
+		<!-- colorPrimaryDark is used for the status bar -->
+		<item name="colorPrimaryDark">#37393e</item>
+		<!-- <item name="android:colorActivatedHighlight">@android:color/transparent</item>  -->
+		<!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+		<item name="colorAccent">#FF4081</item>
+		<!--Date Picker-->
+		<item name="android:datePickerDialogTheme"> @style/AppCompatDateAlertDialogStyle</item>
+		<!--Altert-->
+		<item name="alertDialogTheme"> @style/AppCompatAlertDialogStyle</item>
+		<!--Picker-->
+		<item name="android:alertDialogTheme"> @style/CustomAlertPickerDialog</item>
+		<!--Time Picker-->
+		<item name="android:timePickerDialogTheme"> @style/timePicker</item>
+	</style>
+
+	<style name="CustomAlertPickerDialog" parent="Theme.AppCompat.Dialog">
+		<item name="android:windowMinWidthMajor">97%</item>
+		<item name="android:windowMinWidthMinor">97%</item>
+		<item name="colorPrimary">#a5abb1</item>
+		<item name="colorPrimaryDark">#a5abb1</item>
+		<item name="colorAccent">#a5abb1</item>
+		<item name="android:background">#37393e</item>
+		<item name="android:textColor">#a5abb1</item>
+		<item name="android:textColorPrimary">#a5abb1</item>
+		<item name="android:textColorTertiary">#a5abb1</item>
+		<item name="android:textColorSecondary">#a5abb1</item>
+		<item name="colorControlActivated">#FF4081</item>
+	</style>
+	
+
+	<style name="timePicker" parent="Theme.AppCompat.Dialog">
+
+		<item name="android:windowMinWidthMajor">97%</item>
+		<item name="android:windowMinWidthMinor">97%</item>
+		<item name="colorControlActivated">#FF4081</item>
+		<item name="colorAccent">#555555</item>
+		<item name="android:textColorPrimary">#ffffff</item>
+		<item name="android:textColorSecondary">#ffffff</item>		
+		<item name="android:textColor">#ffffff</item>
+		<item name="android:numbersSelectorColor">#37393e</item>
+		<item name="android:background">#555555</item>
+		<item name="showTitle">false</item>
+
+	</style>
+
+
+	<style name="AppCompatDateAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+		<item name="android:windowMinWidthMajor">97%</item>
+		<item name="android:windowMinWidthMinor">97%</item>
+		<item name="colorPrimary">#a5abb1</item>
+		<item name="colorPrimaryDark">#a5abb1</item>
+		<item name="colorAccent">#a5abb1</item>
+		<item name="android:background">#37393e</item>
+		<item name="android:textColor">#a5abb1</item>
+		<item name="android:textColorPrimary">#a5abb1</item>
+		<item name="android:textColorTertiary">#a5abb1</item>
+		<item name="android:textColorSecondary">#a5abb1</item>
+		<item name="colorControlActivated">#FF4081</item>
+	</style>
+
+	
+	<style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+		<item name="android:windowMinWidthMajor">97%</item>
+		<item name="android:windowMinWidthMinor">97%</item>
+		<item name="colorPrimary">#a5abb1</item>
+		<item name="colorPrimaryDark">#a5abb1</item>
+		<item name="colorAccent">#a5abb1</item>
+		<item name="android:background">#37393e</item>
+		<item name="android:textColor">#a5abb1</item>		
+		<item name="colorControlActivated">#FF4081</item>
+	</style>
+	
+	
+ 
+
+</resources>
